@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đôi nhiệt độ</title>
+</head>
+<body>
+    <h2>Temperature Converter</h2>
+    <h4>Fahrenheit: <input type="number" id="inputF" onclick="temperatureConvert(this.value)"><br></h4>
+    <h4>Celcius: <p id="inputC"></p></h4>
+
+    <script>
+            function temperatureConvert(valNumber) {
+                valNumber = parseFloat(valNumber);
+                document.getElementById("inputC").innerHTML = (valNumber-32) / 1.8;
+            }
+    </script>
+</body>
+</html>
