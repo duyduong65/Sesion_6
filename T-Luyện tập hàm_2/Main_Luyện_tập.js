@@ -20,3 +20,13 @@ function factorial() {
     }
     alert("giai thừa của " + inputNumber + " là: " + factorial);
 }
+
+function isNumbers() {
+    let inputNumbers = Number(prompt("Nhập vào ký tự: "));
+    for (let i = 0; i < 9; i++) {
+        if (inputNumbers == i) {
+            alert("ký tự bạn vừa nhập là số");
+            break;
+        }
+    }
+}
