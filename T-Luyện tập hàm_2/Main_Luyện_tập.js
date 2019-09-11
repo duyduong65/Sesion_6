@@ -30,3 +30,39 @@ function isNumbers() {
         }
     }
 }
+
+function findMinNumber() {
+    let inputNumber_1 = Number(prompt("nhập vào số thứ nhất: "));
+    let inputNumber_2 = Number(prompt("nhập vào số thứ hai: "));
+    let inputNumber_3 = Number(prompt("nhập vào số thứ ba: "));
+    let arr = [];
+    arr.push(inputNumber_1, inputNumber_2, inputNumber_3);
+    let Min = arr[0];
+    for (let i = 0; i < arr.length; i++) {
+        if (Min >= arr[i]) {
+            Min = arr[i];
+        }
+    }
+    alert("Số nhỏ nhất là: " + Min);
+}
+
+function swap() {
+    let inputNumber_1 = Number(prompt("nhập vào số thứ nhất: "));
+    let inputNumber_2 = Number(prompt("nhập vào số thứ hai: "));
+    let temp;
+    temp = inputNumber_1;
+    inputNumber_1 = inputNumber_2;
+    inputNumber_2 = temp;
+    alert("sô 1 là: " + inputNumber_1);
+    alert("số 2 là: " + inputNumber_2);
+}
+
+function resever() {
+    let arr = [];
+    for (let i = 1; i <= 52; i++) {
+        arr.push(i);
+    }
+    document.write("aray = [" + arr + "]" +"<br>");
+    arr.reverse();
+    document.write("aray = [" + arr + "]" );
+}
