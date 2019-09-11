@@ -62,7 +62,18 @@ function resever() {
     for (let i = 1; i <= 52; i++) {
         arr.push(i);
     }
-    document.write("aray = [" + arr + "]" +"<br>");
+    document.write("aray = [" + arr + "]" + "<br>");
     arr.reverse();
-    document.write("aray = [" + arr + "]" );
+    document.write("aray = [" + arr + "]");
+}
+
+function findString() {
+    let arr = ["a", "b", "c", "d", "e"];
+    let inputString = prompt("Nhập vào số v");
+    for (let i = 0; i < arr.length; i++) {
+        if (inputString == arr[i]) {
+            alert(inputString);
+            break;
+        }
+    }
 }
