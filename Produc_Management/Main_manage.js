@@ -82,94 +82,79 @@ function editProduct(val) {
 
 function showArr() {
     for (let i = 0; i < arr.length; i++) {
-        document.getElementsByClassName("element")[dem].innerHTML = arr[i] ;
+        document.getElementsByClassName("element")[i].innerHTML = arr[i] ;
     }
 }
-
 
 function deleteProduct(val) {
     switch (val) {
         case 0 :
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 1 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 2 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 3 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 4 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 5 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 6 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 7 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 8 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 9 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 10 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 11 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 12 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
         case 13 :
             arr.splice(val, 1);
             arr.splice(val, 1);
-            dem = 0;
             showArr();
             break;
     }
