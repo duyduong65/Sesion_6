@@ -2,7 +2,7 @@ let arr = ["Sony Xperia", "Samsung Galaxy", "Nokia 6", "Xiaomi Redmi Note 4", "A
 let element = document.getElementById('inputString');
 let dem = 0;
 for (let i = 0; i < arr.length; i++) {
-    document.getElementsByClassName("element")[dem].innerHTML = arr[i] +" <br> ";
+    document.getElementsByClassName("element")[dem].innerHTML = arr[i] + " <br> ";
     document.getElementsByClassName('edit')[dem].innerHTML = "<button><h4>edit</h4></button>";
     document.getElementsByClassName('delete')[dem].innerHTML = " <button><h4>Delete</h4></button>"
     dem++
@@ -78,9 +78,99 @@ function editProduct(val) {
             str.value = arr[val];
             break;
     }
-
 }
 
-function deleteProduct() {
+function showArr() {
+    for (let i = 0; i < arr.length; i++) {
+        document.getElementsByClassName("element")[dem].innerHTML = arr[i] ;
+    }
+}
 
+
+function deleteProduct(val) {
+    switch (val) {
+        case 0 :
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 1 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 2 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 3 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 4 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 5 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 6 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 7 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 8 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 9 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 10 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 11 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 12 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+        case 13 :
+            arr.splice(val, 1);
+            arr.splice(val, 1);
+            dem = 0;
+            showArr();
+            break;
+    }
 }
