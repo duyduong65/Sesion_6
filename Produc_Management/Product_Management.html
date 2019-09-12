@@ -7,19 +7,90 @@
 <body>
 <fieldset>
     <legend>Product Management</legend>
-    <h3>Add New Product</h3>
-    <input type="text" id="inputString" placeholder="New Product">
-    <button type="button" onclick="addElement()">Add!</button>
     <table>
+        <th>
+            <h3>Add New Product</h3>
+            <input type="text" id="inputString" placeholder="New Product">
+            <button type="button" onclick="addElement()">Add!</button>
+
+        </th>
         <tr>
-            <td><p id="elementAraay"></p></td>
-            <td><p id="edit_1"></p></td>
-            <td><p id="delete"></p></td>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(0)" class="edit" value="0"></p></td>
+            <td><p onclick="deleteProduct(0)" class="delete" value="delete"></td>
         </tr>
-            <td><p id="element"></p></td>
-            <td><p class="edit"></p></td>
-            <td><p class="delete"></p></td>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(1)" class="edit" value="1"></td>
+            <td><p onclick="deleteProduct(1)" class="delete" value="delete"></td>
         </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(2)" class="edit" value="2"></td>
+            <td><p onclick="deleteProduct(2)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(3)" class="edit" value="3"></td>
+            <td><p onclick="deleteProduct(3)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(4)" class="edit" value="4"></td>
+            <td><p onclick="deleteProduct(4)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(5)" class="edit" value="5"></td>
+            <td><p onclick="deleteProduct(5)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(6)" class="edit" value="6"></td>
+            <td><p onclick="deleteProduct(6)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(7)" class="edit" value="7"></td>
+            <td><p onclick="deleteProduct(7)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(8)" class="edit" value="8"></td>
+            <td><p onclick="deleteProduct(8)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(9)" class="edit" value="9"></td>
+            <td><p onclick="deleteProduct(9)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(10)" class="edit" value="10"></td>
+            <td><p onclick="deleteProduct(10)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(10)" class="edit" value="11"></td>
+            <td><p onclick="deleteProduct(10)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(11)" class="edit" value="11"></td>
+            <td><p onclick="deleteProduct(11)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(12)" class="edit" value="11"></td>
+            <td><p onclick="deleteProduct(12)" class="delete" value="delete"></td>
+        </tr>
+        <tr>
+            <td><p class="element"></p></td>
+            <td><p onclick="editProduct(13)" class="edit" value="11"></td>
+            <td><p onclick="deleteProduct(13)" class="delete" value="delete"></td>
+        </tr>
+
+
     </table>
 </fieldset>
 </body>
