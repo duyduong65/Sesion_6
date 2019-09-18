@@ -82,7 +82,9 @@ function editProduct(val) {
 
 function showArr() {
     for (let i = 0; i < arr.length; i++) {
-        document.getElementsByClassName("element")[i].innerHTML = arr[i] ;
+        document.getElementsByClassName("element")[i].innerHTML = arr[i];
+        document.getElementsByClassName('edit')[i].innerHTML = "<button><h4>edit</h4></button>";
+        document.getElementsByClassName('delete')[i].innerHTML = " <button><h4>Delete</h4></button>"
     }
     dem = 0;
 }
