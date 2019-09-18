@@ -28,7 +28,7 @@ function fix() {
             document.getElementsByClassName('element')[i].innerHTML = arr[i];
             document.getElementById('inputString').value = "";
             document.getElementById('inputString').focus();
-
+    dem = 0;
         }
     }
 }
@@ -84,6 +84,7 @@ function showArr() {
     for (let i = 0; i < arr.length; i++) {
         document.getElementsByClassName("element")[i].innerHTML = arr[i] ;
     }
+    dem = 0;
 }
 
 function deleteProduct(val) {
